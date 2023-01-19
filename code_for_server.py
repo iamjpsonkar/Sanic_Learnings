@@ -19,7 +19,6 @@ Done
 
 ============================================================
 
-{"foo":"bar"}
 [2023-01-18 16:29:17 +0530] - (sanic.access)[INFO][127.0.0.1:62574]: POST http://localhost:9999/  200 4
 POST / HTTP/1.1
 Host: localhost:9999
@@ -28,5 +27,5 @@ Accept: */*
 Content-Length: 13
 Content-Type: application/x-www-form-urlencoded
 
-
+{"foo":"bar"}
 '''
